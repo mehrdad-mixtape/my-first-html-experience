@@ -1,0 +1,51 @@
+.p1
+{
+    font-family:monospace;
+    font-size: 24pt;
+    direction: ltr;
+}
+.p2
+{
+    font-family:monospace;
+    font-size: 16pt;
+    direction: ltr;
+}
+.p3
+{
+    font-family:monospace;
+    font-size: 14pt;
+    direction: ltr;
+}
+.p4
+{
+    font-family:monospace;
+    font-size: 12pt;
+    direction: ltr;
+}
+.d1
+{
+    background-color: aqua;
+    text-align: center;
+}
+.d2
+{
+    background-color:cornflowerblue;
+    text-align: center;
+}
+.d3
+{
+    background-color: cornflowerblue;
+}
+.d4
+{
+    background-color: aqua;
+}
+.s1
+{
+    width: 500; 
+    height: 500; 
+    border-width: 2px; 
+    border-color: black; 
+    border-style: solid; 
+    float: left;
+}

@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>mixtape.com</title>
+        <link type="text/css" rel="stylesheet" href="theme.css">
+    </head>
+    <body>
+        <style>
+            #h1
+            {
+                direction:ltr; 
+                font-family:monospace; 
+                text-align: center; 
+                font-size: 30pt;
+                background-color: burlywood;
+            }
+        </style>
+
+        <strong>
+            <h1 id="h1">Tutorial-stm32f103c8</h1>
+        </strong>
+        <div class="d1">
+            <p>
+                &nbsp;&nbsp;&nbsp; <span class="p1">H</span>ello <snap class="p1">E</snap>very one welcome !
+            </p>
+        </div>
+        <div class="d1">
+            <p class="p2" title="STM32">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                <strong><b><i>Stm32f103c8</i></b></strong> is a microcontroler that using on 
+                <abbr title="Internet of Things"><mark style="background-color:yellowgreen;">IOT</mark></abbr> or 
+                <mark style="background-color: yellow;"> Control Industry machines.</mark>
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <snap class="p1">I</snap>f you want to <a href="donate.html" title="Donate">Donate me</a> , I can improve my self to learn you new things :D.
+            </p>
+        </div>
+
+        <div class="d2">
+            <p class="p1">
+                &nbsp;Let's Go!
+            </p>
+        </div>
+
+        <div class="d3">
+            <p class="p2" title="stm32 view">
+                <img class="s1" src="New-STM32F103C8T6-ARM-STM32-Minimum-System-Development.jpg" alt="stm32f103c8" title="STM32F103C8" usemap="#cortex"/>
+            
+                <map name="cortex">
+                    <area shape="rect" coords="180,180,300,300" href="cortex.html" alt="arm-cortex">
+                </map>
+                &nbsp;Yes ! This is it: STM32F103C8 <br />
+            </p>
+        </div>
+
+        <div class="d4">
+            <p class="p2" title="First step"> &nbsp;&nbsp;&nbsp;* First Step:
+                <p class="p4">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ok <u>Install</u> 2 software: 1. <a href="https://www.iar.com/iar-embedded-workbench/">IAR iar-embedded-workbench</a> 2. <a href="https://www.st.com/en/development-tools/stm32cubemx.html">stm32cubemx</a>
+                </p>
+            </p>
+        </div>
+
+        <div class="d4">
+            <p class="p2" title="Second step"> &nbsp;&nbsp;&nbsp;* Second Step:
+                <p class="p4">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Right your first <u>code</u>:
+                    <samp class="p1">
+                        <code class="d3">
+                            <pre>
+                            # include "gpio.h"
+                            # include "stm32.h"   
+                            int main(void)
+                            {
+                                HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_15, GPIO_PIN_RESET);
+                                HAL_Delay(1000);
+                            }
+                            </pre>
+                        </code>
+                    </samp>
+                </p>
+            </p>
+        </div>
+
+        <div class="d4">
+            <p class="p2" title="Second step"> &nbsp;&nbsp;&nbsp;* Third Step:
+                <p class="p4">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check -> <a href="pin.html">pinout</a> <- of STM32
+                </p>
+            </p>
+        </div>
+
+    </body>
+</html>
